@@ -1,52 +1,69 @@
-# Prerequisites
-*.d
+# Created by https:\\www.toptal.com\developers\gitignore\api\dotnetcore
+# Edit at https:\\www.toptal.com\developers\gitignore?templates=dotnetcore
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+### DotnetCore APPLICATION ###
+# .NET Core build folders
 
-# Linker output
-*.ilk
-*.map
-*.exp
+## # TEST
+## 
+/AppMktPlaceV2.Security.Test/bin/*
+/AppMktPlaceV2.Security.Test/obj/*
+/AppMktPlaceV2.Security.Test/bin
+/AppMktPlaceV2.Security.Test/obj
+## 
+## # DOMAIN
+## 
+/AppMktPlaceV2.Security.Domain/bin/*
+/AppMktPlaceV2.Security.Domain/obj/*
+/AppMktPlaceV2.Security.Domain/bin
+/AppMktPlaceV2.Security.Domain/obj
+## 
+## # INFRAESTRUTURE
+##
+/AppMktPlaceV2.Security.Infrastructure/obj
+/AppMktPlaceV2.Security.Infrastructure/obj/*
+/AppMktPlaceV2.Security.Infrastructure/obj/Debug
+/AppMktPlaceV2.Security.Infrastructure/obj/Debug/*
+/AppMktPlaceV2.Security.Infrastructure/bin
+/AppMktPlaceV2.Security.Infrastructure/bin/*
+/AppMktPlaceV2.Security.Infrastructure/bin/Debug
+/AppMktPlaceV2.Security.Infrastructure/bin/Debug/*
+## 
+## # API
+/AppMktPlaceV2.Security/bin/*
+/AppMktPlaceV2.Security/obj/*
+/AppMktPlaceV2.Security/bin
+/AppMktPlaceV2.Security/obj
+/AppMktPlaceV2.Security/obj/Debug/*
+/AppMktPlaceV2.Security/obj/Debug
 
-# Precompiled Headers
-*.gch
-*.pch
+## 
+## # APPLICATION
+/AppMktPlaceV2.Security/bin/*
+/AppMktPlaceV2.Security/obj/*
+/AppMktPlaceV2.Security/bin
+/AppMktPlaceV2.Security/SerilogStorage/*
+/AppMktPlaceV2.Security/obj
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Common publish files
+/publish/*
+/setup.sql
+/.dockerignore
+/docker-compose.yml
+/deployment.yml
+/AppMktPlaceV2.Security.Api/Dockerfile
+/entrypoint.sh
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+C:\project\AppMktPlaceV2\AppMktPlaceV2.Infrastructure\obj
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Common project files
+/AppMktPlaceV2.Security.Api/Migrations/*
+/AppMktPlaceV2.Security.Api/Migrations/
+# End of https:\www.toptal.com/developers/gitignore/api/dotnetcore
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+### DotnetCore ROOT ###
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+/.vscode/*
+/.vs/*
+/.vscode
+/.vs

@@ -1,0 +1,6 @@
+C:\project\AppMktPlace\AppMktPlaceV2.Security.Api\AppMktPlaceV2.Security.Business\obj\Debug\net8.0\AppMktPlaceV2.Security.Business.csproj.AssemblyReference.cache
+C:\project\AppMktPlace\AppMktPlaceV2.Security.Api\AppMktPlaceV2.Security.Business\obj\Debug\net8.0\AppMktPlaceV2.Security.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\AppMktPlace\AppMktPlaceV2.Security.Api\AppMktPlaceV2.Security.Business\obj\Debug\net8.0\AppMktPlaceV2.Security.Business.AssemblyInfoInputs.cache
+C:\project\AppMktPlace\AppMktPlaceV2.Security.Api\AppMktPlaceV2.Security.Business\obj\Debug\net8.0\AppMktPlaceV2.Security.Business.AssemblyInfo.cs
+C:\project\AppMktPlace\AppMktPlaceV2.Security.Api\AppMktPlaceV2.Security.Business\obj\Debug\net8.0\AppMktPlaceV2.Security.Business.csproj.CoreCompileInputs.cache
+C:\project\AppMktPlace\AppMktPlaceV2.Security.Api\AppMktPlaceV2.Security.Business\obj\Debug\net8.0\AppMktPlaceV2.Security.Business.sourcelink.json
