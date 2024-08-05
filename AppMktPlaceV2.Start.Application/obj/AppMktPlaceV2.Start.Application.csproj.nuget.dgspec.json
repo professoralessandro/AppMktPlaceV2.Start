@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\AppMktPlaceV2.Start.Application.csproj": {}
+    "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\AppMktPlaceV2.Start.Application.csproj": {}
   },
   "projects": {
-    "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\AppMktPlaceV2.Start.Application.csproj": {
+    "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\AppMktPlaceV2.Start.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\AppMktPlaceV2.Start.Application.csproj",
+        "projectUniqueName": "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\AppMktPlaceV2.Start.Application.csproj",
         "projectName": "AppMktPlaceV2.Start.Application",
-        "projectPath": "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\AppMktPlaceV2.Start.Application.csproj",
+        "projectPath": "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\AppMktPlaceV2.Start.Application.csproj",
         "packagesPath": "C:\\Users\\profe\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\obj\\",
+        "outputPath": "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Start.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
