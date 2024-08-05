@@ -10,6 +10,14 @@
 /AppMktPlaceV2.Security.Test/obj/*
 /AppMktPlaceV2.Security.Test/bin
 /AppMktPlaceV2.Security.Test/obj
+
+## NEW
+
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Test\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Test\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Test\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Test\obj
+
 ## 
 ## # DOMAIN
 ## 
@@ -17,6 +25,14 @@
 /AppMktPlaceV2.Security.Domain/obj/*
 /AppMktPlaceV2.Security.Domain/bin
 /AppMktPlaceV2.Security.Domain/obj
+
+## NEW
+
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Domain\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Domain\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Domain\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Domain\obj
+
 ## 
 ## # INFRAESTRUTURE
 ##
@@ -28,6 +44,16 @@
 /AppMktPlaceV2.Security.Infrastructure/bin/*
 /AppMktPlaceV2.Security.Infrastructure/bin/Debug
 /AppMktPlaceV2.Security.Infrastructure/bin/Debug/*
+
+
+## NEW
+
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Infrastructure\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Infrastructure\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Infrastructure\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Infrastructure\obj
+
+
 ## 
 ## # API
 /AppMktPlaceV2.Security/bin/*
@@ -36,14 +62,41 @@
 /AppMktPlaceV2.Security/obj
 /AppMktPlaceV2.Security/obj/Debug/*
 /AppMktPlaceV2.Security/obj/Debug
+/AppMktPlaceV2.Security/obj/SerilogStorage/*
+/AppMktPlaceV2.Security/obj/SerilogStorage
+
+## NEW
+
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\obj
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\SerilogStorage\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\SerilogStorage
+
+# Common project files
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\Migrations\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\Migrations
 
 ## 
 ## # APPLICATION
-/AppMktPlaceV2.Security/bin/*
-/AppMktPlaceV2.Security/obj/*
-/AppMktPlaceV2.Security/bin
-/AppMktPlaceV2.Security/SerilogStorage/*
-/AppMktPlaceV2.Security/obj
+/AppMktPlaceV2.Start/bin/*
+/AppMktPlaceV2.Start/obj/*
+/AppMktPlaceV2.Start/bin
+/AppMktPlaceV2.Start/obj
+/AppMktPlaceV2.Start/SerilogStorage/*
+/AppMktPlaceV2.Start/SerilogStorage
+
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj\Debug\net8.0
+
+## NEW
+
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\obj
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\SerilogStorage\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\SerilogStorage
 
 # Common publish files
 /publish/*
@@ -51,14 +104,9 @@
 /.dockerignore
 /docker-compose.yml
 /deployment.yml
-/AppMktPlaceV2.Security.Api/Dockerfile
+/AppMktPlaceV2.Start/Dockerfile
 /entrypoint.sh
 
-C:\project\AppMktPlaceV2\AppMktPlaceV2.Infrastructure\obj
-
-# Common project files
-/AppMktPlaceV2.Security.Api/Migrations/*
-/AppMktPlaceV2.Security.Api/Migrations/
 # End of https:\www.toptal.com/developers/gitignore/api/dotnetcore
 
 ### DotnetCore ROOT ###

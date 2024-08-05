@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\AppMktPlaceV2.Security.Application.csproj": {}
+    "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\AppMktPlaceV2.Security.Application.csproj": {}
   },
   "projects": {
-    "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\AppMktPlaceV2.Security.Application.csproj": {
+    "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\AppMktPlaceV2.Security.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\AppMktPlaceV2.Security.Application.csproj",
+        "projectUniqueName": "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\AppMktPlaceV2.Security.Application.csproj",
         "projectName": "AppMktPlaceV2.Security.Application",
-        "projectPath": "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\AppMktPlaceV2.Security.Application.csproj",
+        "projectPath": "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\AppMktPlaceV2.Security.Application.csproj",
         "packagesPath": "C:\\Users\\profe\\.nuget\\packages\\",
-        "outputPath": "C:\\project\\AppMktPlace\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\obj\\",
+        "outputPath": "C:\\project\\AppMktPlace\\Start\\AppMktPlaceV2.Start\\AppMktPlaceV2.Security.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
