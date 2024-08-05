@@ -62,8 +62,8 @@
 /AppMktPlaceV2.Start/obj
 /AppMktPlaceV2.Start/obj/Debug/*
 /AppMktPlaceV2.Start/obj/Debug
-/AppMktPlaceV2.Start/obj/SerilogStorage/*
-/AppMktPlaceV2.Start/obj/SerilogStorage
+/AppMktPlaceV2.Start/SerilogStart/*
+/AppMktPlaceV2.Start/SerilogStart
 
 ## NEW
 
@@ -71,8 +71,8 @@
 ..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj\*
 ..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\bin
 ..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\SerilogStorage\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\SerilogStorage
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\SerilogStart\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\SerilogStart
 
 # Common project files
 ..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\Migrations\*
@@ -80,14 +80,12 @@
 
 ## 
 ## # APPLICATION
-/AppMktPlaceV2.Start/bin/*
-/AppMktPlaceV2.Start/obj/*
-/AppMktPlaceV2.Start/bin
-/AppMktPlaceV2.Start/obj
-/AppMktPlaceV2.Start/SerilogStorage/*
-/AppMktPlaceV2.Start/SerilogStorage
-
-C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj\Debug\net8.0
+/AppMktPlaceV2.Start.Application/bin/*
+/AppMktPlaceV2.Start.Application/obj/*
+/AppMktPlaceV2.Start.Application/bin
+/AppMktPlaceV2.Start.Application/obj
+/AppMktPlaceV2.Start.Application/SerilogStart/*
+/AppMktPlaceV2.Start.Application/SerilogStart
 
 ## NEW
 
@@ -95,8 +93,8 @@ C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj\Debug\n
 ..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\*
 ..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\bin
 ..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\SerilogStorage\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\SerilogStorage
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\SerilogStart\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\SerilogStart
 
 # Common publish files
 /publish/*
