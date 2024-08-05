@@ -6,77 +6,77 @@
 
 ## # TEST
 ## 
-/AppMktPlaceV2.Security.Test/bin/*
-/AppMktPlaceV2.Security.Test/obj/*
-/AppMktPlaceV2.Security.Test/bin
-/AppMktPlaceV2.Security.Test/obj
+/AppMktPlaceV2.Start.Test/bin/*
+/AppMktPlaceV2.Start.Test/obj/*
+/AppMktPlaceV2.Start.Test/bin
+/AppMktPlaceV2.Start.Test/obj
 
 ## NEW
 
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Test\bin\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Test\obj\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Test\bin
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Test\obj
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Test\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Test\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Test\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Test\obj
 
 ## 
 ## # DOMAIN
 ## 
-/AppMktPlaceV2.Security.Domain/bin/*
-/AppMktPlaceV2.Security.Domain/obj/*
-/AppMktPlaceV2.Security.Domain/bin
-/AppMktPlaceV2.Security.Domain/obj
+/AppMktPlaceV2.Start.Domain/bin/*
+/AppMktPlaceV2.Start.Domain/obj/*
+/AppMktPlaceV2.Start.Domain/bin
+/AppMktPlaceV2.Start.Domain/obj
 
 ## NEW
 
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Domain\bin\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Domain\obj\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Domain\bin
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Domain\obj
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Domain\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Domain\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Domain\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Domain\obj
 
 ## 
 ## # INFRAESTRUTURE
 ##
-/AppMktPlaceV2.Security.Infrastructure/obj
-/AppMktPlaceV2.Security.Infrastructure/obj/*
-/AppMktPlaceV2.Security.Infrastructure/obj/Debug
-/AppMktPlaceV2.Security.Infrastructure/obj/Debug/*
-/AppMktPlaceV2.Security.Infrastructure/bin
-/AppMktPlaceV2.Security.Infrastructure/bin/*
-/AppMktPlaceV2.Security.Infrastructure/bin/Debug
-/AppMktPlaceV2.Security.Infrastructure/bin/Debug/*
+/AppMktPlaceV2.Start.Infrastructure/obj
+/AppMktPlaceV2.Start.Infrastructure/obj/*
+/AppMktPlaceV2.Start.Infrastructure/obj/Debug
+/AppMktPlaceV2.Start.Infrastructure/obj/Debug/*
+/AppMktPlaceV2.Start.Infrastructure/bin
+/AppMktPlaceV2.Start.Infrastructure/bin/*
+/AppMktPlaceV2.Start.Infrastructure/bin/Debug
+/AppMktPlaceV2.Start.Infrastructure/bin/Debug/*
 
 
 ## NEW
 
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Infrastructure\bin\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Infrastructure\obj\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Infrastructure\bin
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Infrastructure\obj
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Infrastructure\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Infrastructure\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Infrastructure\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Infrastructure\obj
 
 
 ## 
 ## # API
-/AppMktPlaceV2.Security/bin/*
-/AppMktPlaceV2.Security/obj/*
-/AppMktPlaceV2.Security/bin
-/AppMktPlaceV2.Security/obj
-/AppMktPlaceV2.Security/obj/Debug/*
-/AppMktPlaceV2.Security/obj/Debug
-/AppMktPlaceV2.Security/obj/SerilogStorage/*
-/AppMktPlaceV2.Security/obj/SerilogStorage
+/AppMktPlaceV2.Start/bin/*
+/AppMktPlaceV2.Start/obj/*
+/AppMktPlaceV2.Start/bin
+/AppMktPlaceV2.Start/obj
+/AppMktPlaceV2.Start/obj/Debug/*
+/AppMktPlaceV2.Start/obj/Debug
+/AppMktPlaceV2.Start/obj/SerilogStorage/*
+/AppMktPlaceV2.Start/obj/SerilogStorage
 
 ## NEW
 
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\bin\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\obj\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\bin
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\obj
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\SerilogStorage\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\SerilogStorage
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\SerilogStorage\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\SerilogStorage
 
 # Common project files
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\Migrations\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security\Migrations
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\Migrations\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\Migrations
 
 ## 
 ## # APPLICATION
@@ -91,12 +91,12 @@ C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj\Debug\n
 
 ## NEW
 
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\bin\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\obj\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\bin
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\obj
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\SerilogStorage\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Security.Application\SerilogStorage
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\bin\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\bin
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\SerilogStorage\*
+..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\SerilogStorage
 
 # Common publish files
 /publish/*

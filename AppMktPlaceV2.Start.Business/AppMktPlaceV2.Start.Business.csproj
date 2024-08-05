@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppMktPlaceV2.Start.Application\AppMktPlaceV2.Start.Application.csproj" />
+    <ProjectReference Include="..\AppMktPlaceV2.Start.Domain\AppMktPlaceV2.Start.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\AppMktPlaceV2.Start.Application.csproj.AssemblyReference.cache
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\AppMktPlaceV2.Start.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\AppMktPlaceV2.Start.Application.AssemblyInfoInputs.cache
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\AppMktPlaceV2.Start.Application.AssemblyInfo.cs
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\AppMktPlaceV2.Start.Application.csproj.CoreCompileInputs.cache
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\AppMktPlaceV2.Start.Application.sourcelink.json
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\bin\Debug\net8.0\AppMktPlaceV2.Start.Application.deps.json
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\bin\Debug\net8.0\AppMktPlaceV2.Start.Application.dll
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\bin\Debug\net8.0\AppMktPlaceV2.Start.Application.pdb
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\AppMktPlaceV2.Start.Application.dll
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\refint\AppMktPlaceV2.Start.Application.dll
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\AppMktPlaceV2.Start.Application.pdb
+C:\project\AppMktPlace\Start\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\Debug\net8.0\ref\AppMktPlaceV2.Start.Application.dll
