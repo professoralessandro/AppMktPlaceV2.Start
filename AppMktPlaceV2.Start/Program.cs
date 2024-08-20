@@ -106,7 +106,9 @@ try
             }
         });
     });
+    #endregion SWAGGER
 
+    #region CORS CONFIGURATION
     builder.Services.AddCors(option =>
     {
         option.AddPolicy(RumtimeSettings.ApiPolicy, builder =>
@@ -116,7 +118,7 @@ try
             .AllowAnyHeader();
         });
     });
-    #endregion SWAGGER
+    #endregion
 
     #region SERILOG
     builder.Configuration.AddSerilogApi();
@@ -149,6 +151,7 @@ try
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(JwtRuntimeConfig.Secret)),
             ValidateAudience = false,
             ValidateIssuer = false,
+            ValidateLifetime = true,
             ClockSkew = TimeSpan.Zero
         };
     });
