@@ -64,12 +64,6 @@ namespace AppMktPlaceV2.Start.Api.Middleware
 
             //var result = Task.Run(async () => await _userRepository.GetUserByEmail(userEmail)).GetAwaiter().GetResult();
             //var user = result.First();
-
-            //if (!user.Department.ToUpper().Contains("COMPLIANCE"))
-            //{
-            //    context.Result = new StatusCodeResult(403);
-            //    return;
-            //}
         }
     }
 }
