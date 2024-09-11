@@ -10,6 +10,8 @@ using AppMktPlaceV2.Start.Domain.Interfaces.Services.User;
 using AppMktPlaceV2.Start.Domain.Interfaces.Common;
 using AppMktPlaceV2.Start.Domain.Interfaces.Services.Log;
 using AppMktPlaceV2.Securityt.Domain.Servies.User;
+using AppMktPlaceV2.Start.Domain.Interfaces.Services.BlackListToken;
+using AppMktPlaceV2.Start.Domain.Servies.BlackListToken;
 #endregion
 
 namespace AppMktPlaceV2.Start.Infrastructure.Arquiteture.ServicesInjection
@@ -38,6 +40,7 @@ namespace AppMktPlaceV2.Start.Infrastructure.Arquiteture.ServicesInjection
             // SERVICES
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ILogService, LogService>();
+            services.AddScoped<IBlackListTokenService, BlackListTokenService>();
 
             return services;
         }

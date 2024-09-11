@@ -6,8 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AppMktPlaceV2.Start.Api.Controllers.Common
 {
-    // [ApiController, Route("api/[controller]"), APClainsAuthorize, Authorize, ApiVersion("1.0")]
-    [ApiController, Route("api/[controller]"), Authorize, ApiVersion("1.0")]
+    [ApiController, Route("api/[controller]"), Authorize, APClainsAuthorize("CommonControllerUser", "CommonControllerValue"), ApiVersion("1.0")]
     public class CommonController : ControllerBase
     {
     }

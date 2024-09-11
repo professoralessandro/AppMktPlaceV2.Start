@@ -1,6 +1,8 @@
 ﻿#region REFERENCES
+using AppMktPlaceV2.Start.Domain.Interfaces.Repository.BlackListToken;
 using AppMktPlaceV2.Start.Domain.Interfaces.Repository.Log;
 using AppMktPlaceV2.Start.Domain.Interfaces.Repository.User;
+using AppMktPlaceV2.Start.Infrastructure.Repositorys.BlackListToken;
 using AppMktPlaceV2.Start.Infrastructure.Repositorys.Log;
 using AppMktPlaceV2.Start.Infrastructure.Repositorys.User;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,6 +17,7 @@ namespace AppMktPlaceV2.Start.Infrastructure.Arquiteture.RepositoryInjection
         {
             return services.
                 AddScoped<IUserRepository, UserRepository>().
+                AddScoped<IBlackListTokenRepository, BlackListTokenRepository>().
                 AddScoped<ILogRepository, LogRepository>();
         }
         #endregion

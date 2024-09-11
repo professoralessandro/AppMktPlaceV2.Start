@@ -14,6 +14,7 @@ using Serilog;
 using Serilog.Events;
 using System.Text;
 using AppMktPlaceV2.Start.Domain.Context.Postgre;
+using AppMktPlaceV2.Start.Application.Helper.Settings;
 #endregion REFERENCES
 
 #region TRY CATCH
@@ -29,6 +30,12 @@ try
     RumtimeSettings.ApiEnvironment = env.EnvironmentName;
 
     #region RUNTIMEVARIABLES
+
+    #region HTTP RUMTIME SETTINGS
+    // Configure MailSettings
+    builder.Services.Configure<HttpRumtimeSettings>(builder.Configuration.GetSection("HttpRumtimeSettings"));
+    #endregion HTTP RUMTIME SETTINGS
+
     #region CONNECTION STRING
     RumtimeSettings.ConnectionString = config.GetValue<string>("ConnectionString");
     RumtimeSettings.ConnectionStringPostgre = config.GetValue<string>("ConnectionStringPostgre");
