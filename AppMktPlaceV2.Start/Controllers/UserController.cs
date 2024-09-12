@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using AutoMapper;
-using Serilog;
 using System.ComponentModel.DataAnnotations;
 using AppMktPlaceV2.Start.Application.Models.Dto.User;
 using AppMktPlaceV2.Start.Application.Models.Dtos;
@@ -12,10 +11,11 @@ using AppMktPlaceV2.Start.Api.Controllers.Common;
 using AppMktPlaceV2.Start.Domain.Interfaces.Services.User;
 using AppMktPlaceV2.Start.Application.Helper.Static.Generic;
 using AppMktPlaceV2.Start.Domain.Interfaces.Services.Log;
-using AppMktPlaceV2.Start.Domain.Entities;
 using Microsoft.AspNetCore.OutputCaching;
 using AppMktPlaceV2.Start.Application.Dtos.User.Response;
 using AppMktPlaceV2.Start.Application.Dtos.User.Request;
+using AppMktPlaceV2.Start.Api.Enums.Enum;
+using AppMktPlaceV2.Start.Api.Middleware;
 #endregion REFERENCES
 
 namespace AppMktPlaceV2.Start.Api.Controllers
@@ -38,7 +38,7 @@ namespace AppMktPlaceV2.Start.Api.Controllers
         #endregion CONTRUCTORS
 
         #region AUTHENTICATE
-        [HttpPost("authenticate"), AllowAnonymous]
+        [HttpPost("authenticate"), AllowAnonymous, APClainsAuthorize(ClainEnum.AnonymousType, ClainEnum.AnonymousValue)]
         public async Task<IActionResult> Authenticate([FromBody] AuthenticateRequest userObj)
         {
             try
@@ -59,7 +59,7 @@ namespace AppMktPlaceV2.Start.Api.Controllers
         #endregion AUTHENTICATE
 
         #region REGISTER
-        [HttpPost("register"), AllowAnonymous]
+        [HttpPost("register"), AllowAnonymous, APClainsAuthorize(ClainEnum.AnonymousType, ClainEnum.AnonymousValue)]
         public async Task<IActionResult> Registeruser([FromBody] UserDto userObj)
         {
             try
@@ -158,7 +158,7 @@ namespace AppMktPlaceV2.Start.Api.Controllers
         #endregion
 
         #region REFRESH TOKEN
-        [HttpPost("refresh"), AllowAnonymous]
+        [HttpPost("refresh"), AllowAnonymous, APClainsAuthorize(ClainEnum.AnonymousType, ClainEnum.AnonymousValue)]
         public async Task<IActionResult> Refresh(TokenApiDto tokenApiDto)
         {
             try

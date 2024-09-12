@@ -2,9 +2,9 @@
 {
     public class ClainEnum
     {
-        public static string AnonymousType => "AnonymousUser";
-        public static string AnonymousValue => "AllowAnonymous";
-        public static string CommonControllerClainType => "CommonControllerUser";
-        public static string CommonControllerClainValue => "CommonControllerValue";
+        public const string AnonymousType = "AnonymousUser";
+        public const string AnonymousValue = "AllowAnonymous";
+        public const string CommonControllerClainType = "CommonControllerUser";
+        public const string CommonControllerClainValue = "CommonControllerValue";
     }
 }
