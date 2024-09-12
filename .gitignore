@@ -26,13 +26,6 @@
 /AppMktPlaceV2.Start.Domain/bin
 /AppMktPlaceV2.Start.Domain/obj
 
-## NEW
-
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Domain\bin\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Domain\obj\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Domain\bin
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Domain\obj
-
 ## 
 ## # INFRAESTRUTURE
 ##
@@ -45,38 +38,16 @@
 /AppMktPlaceV2.Start.Infrastructure/bin/Debug
 /AppMktPlaceV2.Start.Infrastructure/bin/Debug/*
 
-
-## NEW
-
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Infrastructure\bin\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Infrastructure\obj\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Infrastructure\bin
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Infrastructure\obj
-
-
 ## 
 ## # API
-/AppMktPlaceV2.Start/bin/*
-/AppMktPlaceV2.Start/obj/*
-/AppMktPlaceV2.Start/bin
-/AppMktPlaceV2.Start/obj
-/AppMktPlaceV2.Start/obj/Debug/*
-/AppMktPlaceV2.Start/obj/Debug
-/AppMktPlaceV2.Start/SerilogStart/*
-/AppMktPlaceV2.Start/SerilogStart
-
-## NEW
-
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\bin\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\bin
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\obj
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\SerilogStart\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\SerilogStart
-
-# Common project files
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\Migrations\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start\Migrations
+/AppMktPlaceV2.Start.Api/bin/*
+/AppMktPlaceV2.Start.Api/obj/*
+/AppMktPlaceV2.Start.Api/bin
+/AppMktPlaceV2.Start.Api/obj
+/AppMktPlaceV2.Start.Api/obj/Debug/*
+/AppMktPlaceV2.Start.Api/obj/Debug
+/AppMktPlaceV2.Start.Api/SerilogStorage/*
+/AppMktPlaceV2.Start.Api/SerilogStorage
 
 ## 
 ## # APPLICATION
@@ -84,17 +55,6 @@
 /AppMktPlaceV2.Start.Application/obj/*
 /AppMktPlaceV2.Start.Application/bin
 /AppMktPlaceV2.Start.Application/obj
-/AppMktPlaceV2.Start.Application/SerilogStart/*
-/AppMktPlaceV2.Start.Application/SerilogStart
-
-## NEW
-
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\bin\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\bin
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\obj
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\SerilogStart\*
-..\AppMktPlaceV2.Start\AppMktPlaceV2.Start.Application\SerilogStart
 
 # Common publish files
 /publish/*
